@@ -1,0 +1,36 @@
+.comp{
+    display: flex;
+    margin-top: 50px;
+    width: 50%;
+}
+.form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: outset;
+    border-radius: 50px;
+    width: 30%;
+}
+ 
+#inputName{
+    padding-right: 80px;
+    border-radius: 5px;
+}
+ 
+#inputComment{
+    padding-right: 80px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+ 
+#submitButton{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: rgb(33, 169, 223);
+    padding: 15px 50px;
+    border-radius: 20px;
+    border-style: outset;
+    color: white;
+    cursor: pointer;
+}
